@@ -1,6 +1,6 @@
 <template>
   <div>
-  <TopNav :openDrawer="openDrawer" />
+  <TopNav :openDr></TopNav>
     <router-view></router-view>
   </div>  
 </template>

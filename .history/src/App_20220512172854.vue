@@ -1,15 +1,15 @@
 <template>
   <div>
-  <TopNav :openDrawer="openDrawer" />
-    <router-view></router-view>
-  </div>  
+    <el-button type="primary">el-button</el-button>
+  </div>
+
+  <router-view></router-view>
 </template>
 
 <script>
 export default {
   name: 'App',
   components: {
-
 }
 }
 </script>
