@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # vue-vi
-[].(https://github.com/yueran-z/axios-encapsulation/blob/master/4.jpg?raw=true)
+![](https://github.com/yueran-z/axios-encapsulation/blob/master/4.jpg?raw=true)
 ## Project setup
 ```
 npm install
