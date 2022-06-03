@@ -1,26 +1,24 @@
 <template>
   <div>
-  <TopNav :openDrawer="openDrawer" />
+  <ToDoList></ToDoList>
+  <eleLayout></eleLayout>
     <router-view></router-view>
-  </div>  
+  </div>
 </template>
 
 <script>
+import ToDoList from '@/components/ToDoList.vue'
+import eleLayout from '@/components/eleLayout.vue'
 export default {
   name: 'App',
   components: {
-
-}
+    ToDoList,
+    eleLayout
+},
+  
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
